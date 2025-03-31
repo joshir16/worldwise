@@ -11,17 +11,9 @@ import { useUrlPosition } from "../hooks/useUrlPosition";
 import Message from "./Message";
 import Spinner from "./Spinner";
 
-import { flagemojiToPNG } from "../utilities/flagemojiToPNG";
+import { convertToEmoji, flagemojiToPNG } from "../utilities/flagemojiToPNG";
 import { useCities } from "../context/CitiesContext";
 import { useNavigate } from "react-router-dom";
-
-export function convertToEmoji(countryCode) {
-  const codePoints = countryCode
-    .toUpperCase()
-    .split("")
-    .map((char) => 127397 + char.charCodeAt());
-  return String.fromCodePoint(...codePoints);
-}
 
 const BASE_URL = `https://api.bigdatacloud.net/data/reverse-geocode-client`;
 

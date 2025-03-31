@@ -13,18 +13,6 @@
       }
     },
     {
-      "id": "90c9",
-      "cityName": "Leh",
-      "country": "India",
-      "emoji": "🇮🇳",
-      "date": "2025-03-30T17:35:39.423Z",
-      "notes": "",
-      "position": {
-        "lat": "33.9553482477919",
-        "lng": "78.4413528442383"
-      }
-    },
-    {
       "id": "0e84",
       "cityName": "Chakrata",
       "country": "India",
@@ -34,6 +22,30 @@
       "position": {
         "lat": "30.701736758732025",
         "lng": "77.89306640625001"
+      }
+    },
+    {
+      "id": "396e",
+      "cityName": "Dharamsala",
+      "country": "India",
+      "emoji": "🇮🇳",
+      "date": "2025-03-31T00:13:35.755Z",
+      "notes": "Awesome",
+      "position": {
+        "lat": "32.217503290177355",
+        "lng": "76.32064819335938"
+      }
+    },
+    {
+      "id": "78ed",
+      "cityName": "Jaipur",
+      "country": "India",
+      "emoji": "🇮🇳",
+      "date": "2025-03-31T00:13:57.540Z",
+      "notes": "Nice",
+      "position": {
+        "lat": "26.90554139526357",
+        "lng": "75.8331298828125"
       }
     }
   ]

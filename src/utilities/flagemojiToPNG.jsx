@@ -6,3 +6,11 @@ export const flagemojiToPNG = (flag) => {
     <img src={`https://flagcdn.com/24x18/${countryCode}.png`} alt="flag" />
   );
 };
+
+export function convertToEmoji(countryCode) {
+  const codePoints = countryCode
+    .toUpperCase()
+    .split("")
+    .map((char) => 127397 + char.charCodeAt());
+  return String.fromCodePoint(...codePoints);
+}
